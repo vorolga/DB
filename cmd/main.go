@@ -15,6 +15,6 @@ func main() {
 	}
 
 	router := application.CreateRouter()
-	log.Println("server running at 5001")
-	panic(fasthttp.ListenAndServe(":5001", router.HandleRequest))
+	log.Println("server running at 5000")
+	panic(fasthttp.ListenAndServe(":5000", router.HandleRequest))
 }

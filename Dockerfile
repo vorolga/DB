@@ -32,7 +32,7 @@ WORKDIR /usr/src/app
 COPY . .
 COPY --from=build /app/main .
 
-EXPOSE 5001
+EXPOSE 5000
 
 ENV PGPASSWORD docker
 
